@@ -68,6 +68,9 @@ print(colors)
 
 colors.sort(reverse=True)  # Ordena alfabeticamente de mayor a menor la lista
 print(colors)
+print(colors.index("pink"))  # Indica la posicion donde se encuentra el color indicado
+print(colors.count("red"))      # Cuenta la cantidad de veces que se encuentra el color indicado
+
 
 #colors.clear()      # Elimina toda la lista
 
